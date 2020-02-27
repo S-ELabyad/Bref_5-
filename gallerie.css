@@ -829,7 +829,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: 90px;
+  top: 89px;
   left: 952px;
   border: 4px solid black;
   height: 42%;
@@ -886,7 +886,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: -552px;
+  top: -551px;
   left: 952px;
   border: 4px solid black;
   height: 42%;
@@ -958,9 +958,12 @@ body {
   position: relative;
   font-style: italic;
   top: -2px;
-  left: 27px;
-  white-space: pre;
+  left: -273px;
+  /* white-space: pre; */
   color: navy;
+  line-height: 1.5;
+  font-size: 15px;
+  text-align: center;
 }
 
 .page2 .btnred {
@@ -990,8 +993,8 @@ body {
 }
 
 .page2 .imagee {
-  width: 167%;
-  margin-top: -114%;
+  width: 163%;
+  margin-top: -102%;
   margin-left: 247%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1470,7 +1473,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: 139px;
+  top: 297px;
   left: 945px;
   border: 4px solid black;
   height: 42%;
@@ -2090,7 +2093,7 @@ form {
   #footer {
     display: list-item;
     margin-top: 19%;
-    height: 100%;
+    height: 103%;
   }
   #footer .txt {
     font-size: 24px;
@@ -2284,7 +2287,7 @@ form {
   .page2 #validation {
     position: relative;
     top: 4%;
-    height: 64%;
+    height: 69%;
   }
   .page2 #validation .input1 {
     position: relative;
@@ -2335,7 +2338,7 @@ form {
   }
   .page2 .offre {
     font-size: 15px;
-    margin-top: -591PX;
+    margin-top: -524PX;
   }
   .page2 .offre1 {
     font-size: 14px;
@@ -2347,7 +2350,7 @@ form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    left: -200px;
+    left: -99px;
     text-align: center;
   }
   .page2 .forfait6 {
@@ -2359,6 +2362,73 @@ form {
     margin-top: -107px;
     font-size: 11px;
     margin-left: 99px;
+  }
+  /*........*/
+  #reservation {
+    position: relative;
+    top: 3%;
+    height: 67%;
+  }
+  .image {
+    display: none;
+  }
+  #reservation .input1 .inscrit {
+    font-size: 24px;
+  }
+  #reservation .input1 #Text1 {
+    width: 141px;
+    height: 29px;
+  }
+  #reservation .input1 #Text2 {
+    width: 141px;
+    height: 29px;
+    top: -29px;
+    left: 240px;
+  }
+  #reservation .input1 #ds {
+    width: 141px;
+    height: 29px;
+  }
+  #reservation .input1 #civil {
+    width: 141px;
+    height: 29px;
+    top: -46px;
+    left: 240px;
+  }
+  #reservation .input1 #email1 {
+    width: 141px;
+    height: 29px;
+  }
+  #reservation .input1 #pasword1 {
+    width: 141px;
+    height: 29px;
+    top: -46px;
+    left: 240px;
+  }
+  #reservation .input1 #pasword2 {
+    width: 141px;
+    height: 29px;
+    top: -21px;
+    left: 240px;
+  }
+  #reservation .input1 #radio {
+    width: 12px;
+    margin-left: -33px;
+    height: 11px;
+  }
+  #reservation .input1 #male {
+    font-size: 14px;
+    margin-left: -37px;
+  }
+  #reservation .input1 #female {
+    font-size: 14px;
+    margin-left: -31px;
+  }
+  #reservation .input1 #submit {
+    width: 108px;
+    height: 26px;
+    margin-left: 74px;
+    margin-top: -25px;
   }
 }
 /*# sourceMappingURL=gallerie.css.map */

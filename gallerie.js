@@ -325,4 +325,65 @@ $(document).ready(function() {
   }
 
 });
+/*......*/
+// Get the modal
+var modal = document.getElementById('id01');
 
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+/*....validation de popup..*/
+function validname(){
+    var Letters =RegExp(/^[A-Za-z]+$/);
+    var nom =document.getElementById("name");
+    
+      if(Letters.test(nom.value)==true){
+          alert('Le nom est valide');
+      }
+      else {
+          alert('Le nom pas valide');
+      }
+}
+function validpassword(){
+    var pas =RegExp("/^([A-Za-z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2})+$/");
+    var password =document.getElementById("psw");
+    
+      if(pas.test(password.value)){
+          alert('Mot de passe est valide');
+      }
+      else {
+          alert('Mot de passe pas valide');
+      }
+  
+  }
+  function validdate(){
+    var Letters =RegExp("/^([0-31])+\([0-12])+\([1900-2020])+$/");
+    var nom =document.getElementById("date1").value;
+    
+      if(Letters.test(nom)==true){
+          alert('la date est valide');
+      }
+      else {
+          alert('La date pas valide');
+      }
+  
+  }
+  function validdate(){
+    var Letters =RegExp("/^([0-31])+\([0-12])+\([1900-2020])+$/");
+    var nom =document.getElementById("date2").value;
+    
+      if(Letters.test(nom)==true){
+          alert('la date est valide');
+      }
+      else {
+          alert('La date pas valide');
+      }
+  
+  }
+  function login(){
+      
+  }

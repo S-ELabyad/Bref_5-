@@ -1233,7 +1233,7 @@ body {
 #page4 .Forfait {
   position: relative;
   width: 100%;
-  margin-top: -55%;
+  height: 100%;
 }
 
 #page4 .Forfait1 {
@@ -1242,7 +1242,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: 848px;
+  top: 130px;
   left: 19px;
   border: 4px solid black;
   height: 42%;
@@ -1299,7 +1299,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: 598px;
+  top: -120px;
   left: 325px;
   border: 4px solid black;
   height: 42%;
@@ -1356,7 +1356,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: 347px;
+  top: -371px;
   left: 633px;
   border: 4px solid black;
   height: 42%;
@@ -1413,7 +1413,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: 96px;
+  top: -622px;
   left: 945px;
   border: 4px solid black;
   height: 42%;
@@ -1470,7 +1470,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: 139px;
+  top: -575px;
   left: 945px;
   border: 4px solid black;
   height: 42%;
@@ -1527,7 +1527,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: -113px;
+  top: -826px;
   left: 635px;
   border: 4px solid black;
   height: 42%;
@@ -1584,7 +1584,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: -364px;
+  top: -1076px;
   left: 326px;
   border: 4px solid black;
   height: 42%;
@@ -1641,7 +1641,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: -614px;
+  top: -1328px;
   left: 19px;
   border: 4px solid black;
   height: 42%;
@@ -1698,7 +1698,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: -572px;
+  top: -1275px;
   left: 65px;
   border: 4px solid black;
   height: 58%;
@@ -1751,7 +1751,7 @@ body {
 
 #page4 .Offre {
   position: relative;
-  top: -481px;
+  top: -1188px;
   text-align: center;
   font-style: italic;
   font-size: 33px;
@@ -1762,14 +1762,14 @@ body {
   position: relative;
   font-style: italic;
   font-size: 18px;
-  top: -441px;
+  top: -1135px;
   text-align: center;
 }
 
 #page4 .Offre2 {
   position: relative;
   font-style: italic;
-  top: -319px;
+  top: -1000px;
   left: 27px;
   color: navy;
   line-height: 1.5;
@@ -1784,7 +1784,7 @@ body {
   font-size: 14px;
   background-color: darkorange;
   color: white;
-  top: -208px;
+  top: -874px;
   left: 95px;
   cursor: pointer;
 }
@@ -1799,7 +1799,7 @@ body {
   position: relative;
   width: 27%;
   max-width: 290px;
-  top: -303px;
+  top: -1010px;
   left: 55px;
 }
 
@@ -1871,11 +1871,11 @@ form {
 #Footer {
   background-color: gainsboro;
   width: 100%;
-  height: 60%;
+  height: 62%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: -5%;
+  margin-top: 141%;
 }
 
 #Footer .Txt {
@@ -2010,6 +2010,198 @@ form {
 }
 
 /*....*/
+/* reserver*/
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: navy;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.Container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 299px;
+  top: 0;
+  width: 53%;
+  height: 73%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#name {
+  color: white;
+  font-style: italic;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 30px;
+  left: 83px;
+  font-size: 18px;
+}
+
+#psw {
+  color: white;
+  font-style: italic;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 30px;
+  left: 83px;
+  font-size: 18px;
+}
+
+#date1 {
+  color: white;
+  font-style: italic;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 30px;
+  left: 83px;
+  font-size: 18px;
+}
+
+#date2 {
+  color: white;
+  font-style: italic;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 30px;
+  left: 83px;
+  font-size: 18px;
+}
+
+#login {
+  margin-top: 51px;
+  border-radius: 65px;
+  font-style: italic;
+  text-align: center;
+  font-size: 17px;
+}
+
+.remember {
+  color: black;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+/*.*/
 @media (min-width: 600px) {
   #header #tete .nav {
     display: inline !important;
@@ -2359,6 +2551,47 @@ form {
     margin-top: -107px;
     font-size: 11px;
     margin-left: 99px;
+  }
+  /*.......*/
+  #page4 .registed {
+    font-size: 28px;
+    color: white;
+    margin-top: -264px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 37px;
+  }
+  #page4 .Forfait1 {
+    width: 36%;
+    height: 24%;
+  }
+  #page4 .Forfait2 {
+    width: 36%;
+    height: 24%;
+    margin-top: 106px;
+    left: 275px;
+  }
+  #page4 .Forfait3 {
+    width: 36%;
+  }
+  #page4 .Forfait7 {
+    width: 36%;
+    height: 24%;
+    margin-top: -5px;
+    left: 275px;
+  }
+  #page4 .Forfait8 {
+    width: 36%;
+    height: 24%;
+    margin-top: 106px;
+  }
+  #page4 .Forfait9 {
+    width: 68%;
+    height: 33%;
+  }
+  #page4 .Forfait10 {
+    display: none;
   }
 }
 /*# sourceMappingURL=inscrip.css.map */

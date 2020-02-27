@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF_8"/>
-        <link rel="stylesheet" href="gallerie.css">
+        <link rel="stylesheet" href="inscrip.css">
         <title>HomeliDays</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
@@ -40,9 +40,7 @@
                     <div class="Forfait1">
                       <img class="Photo" src="image/re1.jpg">
                       <div class="Middle">
-                        <div class="Parag1"> <a
-                            href="popup.html"
-                            target="_blank">Reserver</a></div>
+                        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Reserver</button>
                             
                         </div>
                     </div>
@@ -50,18 +48,14 @@
                     <div class="Forfait2">
                             <img class="Photo2" src="image/re2.jpg">
                             <div class="Middle2">
-                              <div class="Parag2"> <a
-                                href="popup.html"
-                                  target="_blank">Reserver</a></div>
+                                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Reserver</button>
                               </div>
                           </div>
 
                     <div class="Forfait3">
                              <img class="Photo3" src="image/re3.jpg">
                               <div class="Middle3">
-                                  <div class="Parag3"> <a
-                                    href="popup.html"
-                                      target="_blank">Reserver</a></div>
+                                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Reserver</button>
                                   </div>
                               </div>      
                      
@@ -69,51 +63,40 @@
                     <div class="Forfait4">
                             <img class="Photo4" src="image/re4.jpg">
                              <div class="Middle4">
-                                 <div class="Parag4"> <a
-                                    href="popup.html"
-                                     target="_blank">Reserver</a></div>
+                                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Reserver</button>
                                  </div>
                              </div>   
                              <div class="Forfait5">
                                     <img class="Photo5" src="image/re1.jpg">
                                      <div class="Middle5">
-                                         <div class="Parag5"> <a
-                                            href="popup.html"
-                                             target="_blank">Reserver</a></div>
+                                        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Reserver</button>
                                          </div>
                                      </div>    
                                      
                                      <div class="Forfait6">
                                             <img class="Photo6" src="image/re4.jpg">
                                              <div class="Middle6">
-                                                 <div class="Parag6"> <a
-                                                    href="popup.html"
-                                                     target="_blank">Reserver</a></div>
+                                                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Reserver</button>
                                                  </div>
                                              </div>
                                              
                                              <div class="Forfait7">
                                                 <img class="Photo7" src="image/re3.jpg">
                                                  <div class="Middle7">
-                                                     <div class="Parag7"> <a
-                                                        href="popup.html"
-                                                         target="_blank">Reserver</a></div>
+                                                    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Reserver</button>
                                                      </div>
                                                  </div>
                                                  <div class="Forfait8">
                                                     <img class="Photo8" src="image/re2.jpg">
                                                      <div class="Middle8">
-                                                         <div class="Parag8"> <a
-                                                             href="popup.html"
-                                                             target="_blank">Reserver</a></div>
+                                                        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Reserver</button>
                                                          </div>
                                                      </div>
 
                                                      <div class="Forfait9">
                                                         <img class="Photo9" src="image/reserv.jpg">
                                                          <div class="Middle9">
-                                                             <div class="Parag9"> <a href="popup.html" target="_blank">
-                                                                 Reserver</a></div>
+                                                            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Reserver</button>
                                                              </div>
                                                          </div>
                                                          
@@ -140,7 +123,7 @@
                           
     
                 </div>  
-        </div>         
+                
 
 
 
@@ -197,7 +180,41 @@
           
           
           
+             
+
+              <div id="id01" class="modal">
+                
+               
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="image/re1.jpg" alt="Avatar" class="avatar">
+                  </div>
               
+                  <div class="Container">
+                    <label for="uname" id="name"><b>Username</b></label>
+                    <input type="text$" placeholder="Enter Username" name="uname" required style="    width: 34%;height: 8%;margin-left: 140px;border-radius: 15px;font-style: italic;text-align: center; display: flex;margin-left: 264px;">
+              
+                    <label for="psw" id="psw" ><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required style="    width: 34%;height: 8%;margin-left: 140px;border-radius: 15px;font-style: italic;text-align: center;display: flex;margin-left: 264px;">
+
+                    <label for="Date" id="date1"><b>date de départ</b></label>
+                    <input type="date"  name="Date" required style="    width: 34%;height: 8%;margin-left: 140px;border-radius: 15px;font-style: italic;text-align: center;display: flex;margin-left: 264px;">
+
+                    <label for="Date" id="date2"><b>date d'arriver</b></label>
+                    <input type="date"  name="Date" required style="    width: 34%;height: 8%;margin-left: 140px;border-radius: 15px;font-style: italic;text-align: center;display: flex;margin-left: 264px;">
+
+                      
+                    <button type="submit" id="login" onclick="validname();validpassword();validdate();" >Login</button>
+                    <label class="remember">
+                      <input type="checkbox" checked="checked" name="remember"  > Remember me
+                    </label>
+                  </div>
+              
+                  
+                
+              </div>
+
+
                   <script type="text/javascript" src="gallerie.js"></script>
           
               </body>
