@@ -184,65 +184,24 @@ function validradio(){
 
 
 /*....validation de popup..*/
-function validname(){
-    var Letters =RegExp(/^[A-Za-z]+$/);
-    var nom =document.getElementById("name");
-    
-      if(Letters.test(nom.value)==true){
-          alert('Le nom est valide');
+function age(){
+    var anneeNaissance;
+    var age;
+    var phrase;
+    var annee = new Date().getFullYear()
+    var nom = document.getElementById("name").value;
+    var prd=document.getElementById("PeroideL").value;
+    var NBRPersonne=document.getElementById("NbrL").value;
+   
+    anneeNaissance = parseInt(document.getElementById("YY").value);
+      age = annee-anneeNaissance;
+      //condition pour l'attribution de la valeur c selon l'age de la personne
+      if(age<18){
+        alert("Vous êtes mineur.");
       }
-      else {
-          alert('Le nom pas valide');
-      }
-}
-function validpassword(){
-    var pas =RegExp("/^([A-Za-z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2})+$/");
-    var password =document.getElementById("psw");
-    
-      if(pas.test(password.value)){
-          alert('Mot de passe est valide');
-      }
-      else {
-          alert('Mot de passe pas valide');
-      }
-  
-  }
-  function validdate(){
-    var Letters =RegExp("/^([0-31])+\([0-12])+\([1900-2020])+$/");
-    var nom =document.getElementById("date1").value;
-    
-      if(Letters.test(nom)==true){
-          alert('la date est valide');
-      }
-      else {
-          alert('La date pas valide');
-      }
-  
-  }
-  function validdate(){
-    var Letters =RegExp("/^([0-31])+\([0-12])+\([1900-2020])+$/");
-    var nom =document.getElementById("date2").value;
-    
-      if(Letters.test(nom)==true){
-          alert('la date est valide');
-      }
-      else {
-          alert('La date pas valide');
-      }
-  
-  }
- 
-  /*.*/
-  function display(){
-      document.getElementsByClassName("FFF")[0].style.display="block";
-  }
-  function Close(){
-    document.getElementsByClassName("FFF")[0].style.display="none";
-}
-function valeurs(){
-    document.getElementById("champ").innerHTML=document.getElementById("name").value;
-    document.getElementById("champ1").innerHTML=document.getElementById("psw").value;
-    document.getElementById("champ2").innerHTML=document.getElementById("date1").value;
-    document.getElementById("champ3").innerHTML=document.getElementById("date2").value;
-}
+    else{
+        //confirm("Votre age est: "+age+" ans!"+"\n"+"Le modèle de voiture sélectionné est: "+CarSelected+"\n"+"Nom: " +nom);
+        confirm("Votre Nom est: " +name+"\n"+"Votre Age est: "+age+"\n"+"Peroide de location est: "+prd+"\n"+"Nombre de personne est: "+NBRPersonne);
+    }
 
+    }
