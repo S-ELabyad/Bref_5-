@@ -84,25 +84,34 @@ function validname(){
   var nom =document.getElementById("name").value;
   
     if(Letters.test(nom)==true){
-        alert('Le nom est valide');
+     
     }
-    else {
-        alert('Le nom pas valide');
-    }
+   
 
 }
 
-function validpassword(){
-  var pas =/^([A-Za-z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2})+$/;
+function validpassword1(){
+  var pas =/^[A-Za-z0-9_]+$/;
   var password =document.getElementById("password").value;
   
     if(pas.test(password)==true){
-        alert('Mot de passe est valide');
+      
     }
-    else {
-        alert('Mot de passe pas valide');
-    }
+  
 
+}
+function confirmation_password()
+{
+  var password =document.getElementById("password").value;
+  var conf_password =document.getElementById("confirmation").value;
+  if(password === conf_password)
+  {
+    alert("confirmation est correcte");
+  }
+  else
+  {
+    alert("confirmation pas correcte");
+  }
 }
 /*.....validation inscription......*/
 
@@ -120,7 +129,7 @@ function validfirstname(){
 
 }
  function validlastname(){
-  var Letters =RegExp("/^[A-Za-z]+$/");
+  var Letters =RegExp(/^[A-Za-z]+$/);
    var nom =document.getElementById("Text2");
   
      if(Letters.test(nom.value)==true){
@@ -132,19 +141,18 @@ function validfirstname(){
   }
 
 function validdate(){
-  var Letters =RegExp("/^([0-31])+\([0-12])+\([1900-2020])+$/");
-  var nom =document.getElementById("ds").value;
+  var nom =(new Date().getFullYear())-(new Date(document.getElementById("ds").value).getFullYear());
   
-    if(Letters.test(nom)==true){
+    if(nom>=18){
         alert('la date est valide');
     }
     else {
-        alert('La date pas valide');
+        alert('Vous êtes mineur.');
     }
 
 }
  function validemail(){
-   var Letters =RegExp("/^([A-Za-z]{3,10})+\@([A-Za-z])+\.)+\([a-zA-Z0-9]{2}$/");
+   var Letters =RegExp(/^([A-Za-z]{3,10})+\@([A-Za-z])+\.)+\([a-zA-Z0-9]{2}$/);
    var nom =document.getElementById("email1").value;
   
     if(Letters.test(nom)===true){
@@ -155,12 +163,19 @@ function validdate(){
      }
 
  }
+ 
 function validpassword(){
-  var pas =RegExp("/^([A-Za-z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2})+$/");
+  var pas =RegExp(/^[A-Za-z0-9_]+$/);
   var password =document.getElementById("pasword1");
-  
+  var conf_password =document.getElementById("pasword2");
     if(pas.test(password.value)){
-        alert('Mot de passe est valide');
+      if(password.value==conf_password.value)
+      {
+        alert('confirmation est valide');
+      }
+      else {
+        alert('confirmation pas valide');
+      }
     }
     else {
         alert('Mot de passe pas valide');
@@ -168,18 +183,7 @@ function validpassword(){
 
 }
 
-function validradio(){
-  var Letters = RegExp("/^([0-31])+\([0-12])+\([1900-2020])+$/");
-  var msex =document.getElementById("radio").value;
-  
-    if(Letters.test(msex)==true){
-        alert('sex est valide');
-    }
-    else {
-        alert('sex pas valide');
-    }
 
-}
 
 
 
@@ -201,7 +205,7 @@ function age(){
       }
     else{
         //confirm("Votre age est: "+age+" ans!"+"\n"+"Le modèle de voiture sélectionné est: "+CarSelected+"\n"+"Nom: " +nom);
-        confirm("Votre Nom est: " +name+"\n"+"Votre Age est: "+age+"\n"+"Peroide de location est: "+prd+"\n"+"Nombre de personne est: "+NBRPersonne);
+        confirm("Votre Nom est: " + nom+"\n"+"Votre Age est: "+age+"\n"+"Peroide de location est: "+prd+"\n"+"Nombre de personne est: "+NBRPersonne);
     }
 
     }

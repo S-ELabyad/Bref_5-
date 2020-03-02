@@ -1694,7 +1694,7 @@ background-color: gainsboro;
 width: 100%;
 height: 64%;
 display: flex;
-margin-top: 261%;
+margin-top: 135%;
 
 
 
@@ -2351,8 +2351,43 @@ height: 175px;
   margin-left: 106px;
 
 }
-
-
+.modal{
+  width: 66%;
+  margin-left: -45%;
+  height: 71%;
+}
+.close{
+  font-size: 23px;
+  right: 29px;
+}
+#name{
+  width: 123px;
+  margin-left: 72px;
+  border-radius: 12px;
+}
+#date1{
+margin-left: -23px;
+}
+#JJ{
+  border-radius: 12px; 
+}
+#MM{
+  border-radius: 12px;
+}
+#YY{
+  border-radius: 12px;
+}
+#PeroideL{
+  border-radius: 12px;
+  margin-left: 73px;
+}
+#NbrL{
+  border-radius: 12px;
+  margin-left: 73px;
+}
+button{
+  border-radius: 12px;
+}
 
 }
 
