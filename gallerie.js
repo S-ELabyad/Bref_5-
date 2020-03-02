@@ -231,6 +231,18 @@ function validpassword(){
       }
   
   }
-  function login(){
-      
+ 
+  /*.*/
+  function display(){
+      document.getElementsByClassName("FFF")[0].style.display="block";
   }
+  function Close(){
+    document.getElementsByClassName("FFF")[0].style.display="none";
+}
+function valeurs(){
+    document.getElementById("champ").innerHTML=document.getElementById("name").value;
+    document.getElementById("champ1").innerHTML=document.getElementById("psw").value;
+    document.getElementById("champ2").innerHTML=document.getElementById("date1").value;
+    document.getElementById("champ3").innerHTML=document.getElementById("date2").value;
+}
+

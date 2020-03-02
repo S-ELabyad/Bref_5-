@@ -191,20 +191,20 @@
                   </div>
               
                   <div class="Container">
-                    <label for="uname" id="name"><b>Username</b></label>
-                    <input type="text$" placeholder="Enter Username" name="uname" required style="    width: 34%;height: 8%;margin-left: 140px;border-radius: 15px;font-style: italic;text-align: center; display: flex;margin-left: 264px;">
+                    <label for="uname" id="name"><b>Votre nom</b></label>
+                    <input type="text$" id="champ" placeholder="Enter Username" name="uname" required style="    width: 34%;height: 8%;margin-left: 140px;border-radius: 15px;font-style: italic;text-align: center; display: flex;margin-left: 264px;">
               
-                    <label for="psw" id="psw" ><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required style="    width: 34%;height: 8%;margin-left: 140px;border-radius: 15px;font-style: italic;text-align: center;display: flex;margin-left: 264px;">
+                    <label for="psw" id="psw" ><b>Votre mot de passe</b></label>
+                    <input type="password" id="champ1" placeholder="Enter Password" name="psw" required style="    width: 34%;height: 8%;margin-left: 140px;border-radius: 15px;font-style: italic;text-align: center;display: flex;margin-left: 264px;">
 
                     <label for="Date" id="date1"><b>date de départ</b></label>
-                    <input type="date"  name="Date" required style="    width: 34%;height: 8%;margin-left: 140px;border-radius: 15px;font-style: italic;text-align: center;display: flex;margin-left: 264px;">
+                    <input type="date" id="champ2"  name="Date" required style="    width: 34%;height: 8%;margin-left: 140px;border-radius: 15px;font-style: italic;text-align: center;display: flex;margin-left: 264px;">
 
                     <label for="Date" id="date2"><b>date d'arriver</b></label>
-                    <input type="date"  name="Date" required style="    width: 34%;height: 8%;margin-left: 140px;border-radius: 15px;font-style: italic;text-align: center;display: flex;margin-left: 264px;">
+                    <input type="date"  id="champ3" name="Date" required style="    width: 34%;height: 8%;margin-left: 140px;border-radius: 15px;font-style: italic;text-align: center;display: flex;margin-left: 264px;">
 
                       
-                    <button type="submit" id="login" onclick="validname();validpassword();validdate();" >Login</button>
+                    <button type="submit" id="login" onclick="validname();validpassword();validdate();display()" >Login</button>
                     <label class="remember">
                       <input type="checkbox" checked="checked" name="remember"  > Remember me
                     </label>
@@ -212,7 +212,40 @@
               
                   
                 
-              </div>
+                </div>
+
+              <!-- <div class="FFF" class="modal1">
+
+                
+                <div class="imgcontainer1">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="close1" title="Close Modal">&times;</span>
+                  <img src="image/re1.jpg" alt="Avatar" class="avatar1">
+                  
+                </div>
+            
+                <div class="Container1">
+                  <p for="uname" id="Name"><b>Votre nom</b></p>
+
+            
+                  <p for="psw" id="Psw" ><b>Votre mot de passe</b></p>
+                
+
+                  <p for="Date" id="Date1" ><b>date de départ</b></p>
+                 
+
+                  <p for="Date" id="Date2" ><b>date d'arriver</b></p>
+                 
+
+                    
+                  <button type="submit" id="Login" onclick="validname();validpassword();validdate();" >Login</button>
+                  <p class="Remember">
+                    <input type="checkbox" checked="checked" name="remember"  > Remember me
+                  </p>
+                </div>
+            
+                
+              
+            </div> -->
 
 
                   <script type="text/javascript" src="gallerie.js"></script>

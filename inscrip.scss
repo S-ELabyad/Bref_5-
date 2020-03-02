@@ -616,11 +616,11 @@ font-style: italic;
 font-size: 33px;
 color: inherit;
 }
-& .forfait {
+& .Forfait {
 position: relative;
 top: 153px;
 }
-& .forfait1 {
+& .Forfait1 {
 position: relative;
 width: 22%;
 display: flex;
@@ -648,10 +648,10 @@ transform: translate(-50%, -50%);
 -ms-transform: translate(-50%, -50%);
 text-align: center;
 }
-& .forfait1:hover .photo {
+& .Forfait1:hover .photo {
 opacity: 0.3;
 }
-& .forfait1:hover .middle {
+& .Forfait1:hover .middle {
 opacity: 1;
 }
 & .parag1 {
@@ -668,7 +668,7 @@ font-style: italic;
 }
 
 
-& .forfait2 {
+& .Forfait2 {
 position: relative;
 width: 22%;
 display: flex;
@@ -696,10 +696,10 @@ transform: translate(-50%, -50%);
 -ms-transform: translate(-50%, -50%);
 text-align: center;
 }
-& .forfait2:hover .photo1 {
+& .Forfait2:hover .photo1 {
 opacity: 0.3;
 }
-& .forfait2:hover .middle1 {
+& .Forfait2:hover .middle1 {
 opacity: 1;
 }
 & .parag2 {
@@ -715,7 +715,7 @@ font-style: italic;
 
 }
 
-& .forfait5 {
+& .Forfait5 {
 position: relative;
 width: 49%;
 display: flex;
@@ -743,10 +743,10 @@ transform: translate(-50%, -50%);
 -ms-transform: translate(-50%, -50%);
 text-align: center;
 }
-& .forfait5:hover .photo5 {
+& .Forfait5:hover .photo5 {
 opacity: 0.3;
 }
-& .forfait5:hover .middle5 {
+& .Forfait5:hover .middle5 {
 opacity: 1;
 }
 & .parag5 {
@@ -763,7 +763,7 @@ font-style: italic;
 }
 
 
-& .forfait3 {
+& .Forfait3 {
 position: relative;
 width: 22%;
 display: flex;
@@ -791,10 +791,10 @@ transform: translate(-50%, -50%);
 -ms-transform: translate(-50%, -50%);
 text-align: center;
 }
-& .forfait3:hover .photo2 {
+& .Forfait3:hover .photo2 {
 opacity: 0.3;
 }
-& .forfait3:hover .middle2 {
+& .Forfait3:hover .middle2 {
 opacity: 1;
 }
 & .parag3 {
@@ -810,7 +810,7 @@ font-style: italic;
 
 }
 
-& .forfait4 {
+& .Forfait4 {
 position: relative;
 width: 22%;
 display: flex;
@@ -838,10 +838,10 @@ transform: translate(-50%, -50%);
 -ms-transform: translate(-50%, -50%);
 text-align: center;
 }
-& .forfait4:hover .photo3 {
+& .Forfait4:hover .photo3 {
 opacity: 0.3;
 }
-& .forfait4:hover .middle3 {
+& .Forfait4:hover .middle3 {
 opacity: 1;
 }
 & .parag4 {
@@ -858,7 +858,7 @@ font-style: italic;
 }
 
 
-& .offre {
+& .Offre {
 position: relative;
 top: -155px;
 text-align: center;
@@ -866,14 +866,14 @@ font-style: italic;
 font-size: 33px;
 color: inherit;
 }
-& .offre1 {
+& .Offre1 {
 position: relative;
 font-style: italic;
 font-size: 18px;
 top: -124px;
 text-align: center;
 }
-& .offre2 {
+& .Offre2 {
 position: relative;
 font-style: italic;
 top: -2px;
@@ -1692,9 +1692,9 @@ padding: 25px;
 #Footer {
 background-color: gainsboro;
 width: 100%;
-height: 62%;
+height: 64%;
 display: flex;
-margin-top: 141%;
+margin-top: 261%;
 
 
 
@@ -1955,33 +1955,111 @@ span.psw {
   cursor: pointer;
 }
 
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
 
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
-  
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-  .cancelbtn {
-     width: 100%;
-  }
-}
 /*.*/
+// .imgcontainer1 {
+//   text-align: center;
+//   margin: 24px 0 12px 0;
+//   position: relative;
+// }
+
+// img.avatar1 {
+//   width: 40%;
+//   border-radius: 50%;
+// }
+
+// .Container1 {
+//   padding: 16px;
+// }
+
+// span.Psw {
+//   float: right;
+//   padding-top: 16px;
+// }
+
+// /* The Modal (background) */
+// .modal1 {
+//   display: none;
+//   position: fixed;
+//   z-index: 1;
+//   left: 299px;
+//   top: 0;
+//   width: 53%;
+//   height: 73%;
+//   overflow: auto;
+//   background-color: black;
+//   background-color: rgba(0, 0, 0, 0.4);
+  
+// }
+// #Name{
+//   color: white;
+//     font-style: italic;
+//     display: flex;
+//     position: relative;
+//     top: 30px;
+//     left: 83px;
+//     font-size: 18px;
+// }
+// #Psw{
+//   color: white;
+//     font-style: italic;
+//     display: flex;
+//     position: relative;
+//     top: 30px;
+//     left: 83px;
+//     font-size: 18px;
+// }
+// #Date1 {
+//   color: white;
+//     font-style: italic;
+//     display: flex;
+//     position: relative;
+//     top: 30px;
+//     left: 83px;
+//     font-size: 18px;
+// }
+// #Date2{
+//   color: white;
+//     font-style: italic;
+//     display: flex;
+//     position: relative;
+//     top: 30px;
+//     left: 83px;
+//     font-size: 18px;
+// }
+// #Login{
+//   margin-top: 51px;
+//     border-radius: 65px;
+//     font-style: italic;
+//     text-align: center;
+//     font-size: 17px;
+// }
+// .Remember{
+//   color: $color2;
+// }
+// /* Modal Content/Box */
+// .modal1-content {
+//   background-color: #fefefe;
+//   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+//   border: 1px solid #888;
+//   width: 80%; /* Could be more or less, depending on screen size */
+// }
+
+// /* The Close Button (x) */
+// .close1 {
+//   position: absolute;
+//   right: 25px;
+//   top: 0;
+//   color: #000;
+//   font-size: 35px;
+//   font-weight: bold;
+// }
+
+// .close1:hover,
+// .close1:focus {
+//   color:$color1;
+//   cursor: pointer;
+// }
 
 
 
@@ -2094,9 +2172,9 @@ letter-spacing: inherit;
 
 
 /*....media footer....*/
-#footer {
+#Footer {
 display: list-item;
-margin-top: 19%;
+margin-top: 260%;
 height: 100%;
 
 & .txt {
@@ -2104,7 +2182,7 @@ font-size:24px ;
 margin-left: 18px;
 }
 
-& .footer1 {
+& .Footer1 {
 position: absolute;
 }
 & .txt2 {
@@ -2341,36 +2419,8 @@ height: 175px;
     margin-left: -51px;
    }
  }
- & .parag{
-  display: none;
- }
- & .forfait1{
-   display: none;
- }
- & .forfait2{
-   display: none;
- }
- & .forfait5 {
-   display: none;
- }
- & .offre{
-  font-size: 15px;
-  margin-top: -591PX;
- }
- & .offre1{
-   font-size: 14px;
-   margin-top: -15px;
- }
- & .Offre2{
-  font-size: 11px;
-  margin-top: -85px;
-  display: flex;
-  left: -200px;
-  text-align: center;
- }
- & .forfait6 {
-   display: none;
- }
+
+ 
  & .btnred{
   height: 35px;
   width: 99px;
@@ -2413,16 +2463,38 @@ height: 175px;
 }
 #page4 .Forfait9{
   width: 68%;
-    height: 33%;
+    height: 40%;
 }
 #page4 .Forfait10 {
   display: none;
 }
+#page4 .Offre {
+  font-size: 27px;
+    margin-top: -32px;
+}
+#page4 .Offre1 {
+ font-size: 15px;
+}
+#page4 .Offre2{
+  text-align: center;
+  margin-top: -41px;
+}
+#page4 .Btnred{
+  width: 125px;
+  font-size: 11px;
+  height: 48px;
+  margin-left: 106px;
 
-
-
-
+}
 
 
 
 }
+
+
+
+
+
+
+
+

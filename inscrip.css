@@ -647,12 +647,12 @@ body {
   color: inherit;
 }
 
-.page2 .forfait {
+.page2 .Forfait {
   position: relative;
   top: 153px;
 }
 
-.page2 .forfait1 {
+.page2 .Forfait1 {
   position: relative;
   width: 22%;
   display: -webkit-box;
@@ -688,11 +688,11 @@ body {
   text-align: center;
 }
 
-.page2 .forfait1:hover .photo {
+.page2 .Forfait1:hover .photo {
   opacity: 0.3;
 }
 
-.page2 .forfait1:hover .middle {
+.page2 .Forfait1:hover .middle {
   opacity: 1;
 }
 
@@ -709,7 +709,7 @@ body {
   color: white;
 }
 
-.page2 .forfait2 {
+.page2 .Forfait2 {
   position: relative;
   width: 22%;
   display: -webkit-box;
@@ -745,11 +745,11 @@ body {
   text-align: center;
 }
 
-.page2 .forfait2:hover .photo1 {
+.page2 .Forfait2:hover .photo1 {
   opacity: 0.3;
 }
 
-.page2 .forfait2:hover .middle1 {
+.page2 .Forfait2:hover .middle1 {
   opacity: 1;
 }
 
@@ -766,7 +766,7 @@ body {
   color: white;
 }
 
-.page2 .forfait5 {
+.page2 .Forfait5 {
   position: relative;
   width: 49%;
   display: -webkit-box;
@@ -802,11 +802,11 @@ body {
   text-align: center;
 }
 
-.page2 .forfait5:hover .photo5 {
+.page2 .Forfait5:hover .photo5 {
   opacity: 0.3;
 }
 
-.page2 .forfait5:hover .middle5 {
+.page2 .Forfait5:hover .middle5 {
   opacity: 1;
 }
 
@@ -823,7 +823,7 @@ body {
   color: white;
 }
 
-.page2 .forfait3 {
+.page2 .Forfait3 {
   position: relative;
   width: 22%;
   display: -webkit-box;
@@ -859,11 +859,11 @@ body {
   text-align: center;
 }
 
-.page2 .forfait3:hover .photo2 {
+.page2 .Forfait3:hover .photo2 {
   opacity: 0.3;
 }
 
-.page2 .forfait3:hover .middle2 {
+.page2 .Forfait3:hover .middle2 {
   opacity: 1;
 }
 
@@ -880,7 +880,7 @@ body {
   color: white;
 }
 
-.page2 .forfait4 {
+.page2 .Forfait4 {
   position: relative;
   width: 22%;
   display: -webkit-box;
@@ -916,11 +916,11 @@ body {
   text-align: center;
 }
 
-.page2 .forfait4:hover .photo3 {
+.page2 .Forfait4:hover .photo3 {
   opacity: 0.3;
 }
 
-.page2 .forfait4:hover .middle3 {
+.page2 .Forfait4:hover .middle3 {
   opacity: 1;
 }
 
@@ -937,7 +937,7 @@ body {
   color: white;
 }
 
-.page2 .offre {
+.page2 .Offre {
   position: relative;
   top: -155px;
   text-align: center;
@@ -946,7 +946,7 @@ body {
   color: inherit;
 }
 
-.page2 .offre1 {
+.page2 .Offre1 {
   position: relative;
   font-style: italic;
   font-size: 18px;
@@ -954,7 +954,7 @@ body {
   text-align: center;
 }
 
-.page2 .offre2 {
+.page2 .Offre2 {
   position: relative;
   font-style: italic;
   top: -2px;
@@ -1871,11 +1871,11 @@ form {
 #Footer {
   background-color: gainsboro;
   width: 100%;
-  height: 62%;
+  height: 64%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 141%;
+  margin-top: 261%;
 }
 
 #Footer .Txt {
@@ -2164,43 +2164,6 @@ span.psw {
   cursor: pointer;
 }
 
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s;
-}
-
-@-webkit-keyframes animatezoom {
-  from {
-    -webkit-transform: scale(0);
-  }
-  to {
-    -webkit-transform: scale(1);
-  }
-}
-
-@keyframes animatezoom {
-  from {
-    -webkit-transform: scale(0);
-            transform: scale(0);
-  }
-  to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-  }
-  .cancelbtn {
-    width: 100%;
-  }
-}
-
 /*.*/
 @media (min-width: 600px) {
   #header #tete .nav {
@@ -2279,108 +2242,108 @@ span.psw {
     letter-spacing: inherit;
   }
   /*....media footer....*/
-  #footer {
+  #Footer {
     display: list-item;
-    margin-top: 19%;
+    margin-top: 260%;
     height: 100%;
   }
-  #footer .txt {
+  #Footer .txt {
     font-size: 24px;
     margin-left: 18px;
   }
-  #footer .footer1 {
+  #Footer .Footer1 {
     position: absolute;
   }
-  #footer .txt2 {
+  #Footer .txt2 {
     position: relative;
     left: 84px;
     top: -50px;
   }
-  #footer .txt3 {
+  #Footer .txt3 {
     position: relative;
     top: -36px;
     left: 80px;
   }
-  #footer .txt4 {
+  #Footer .txt4 {
     position: relative;
     top: -33px;
     left: 75px;
   }
-  #footer .txt5 {
+  #Footer .txt5 {
     position: relative;
     top: -33px;
     left: 72px;
   }
-  #footer .text {
+  #Footer .text {
     position: relative;
     top: -50px;
     left: 140px;
   }
-  #footer .text2 {
+  #Footer .text2 {
     position: relative;
     top: -37px;
     left: 141px;
   }
-  #footer .text3 {
+  #Footer .text3 {
     position: relative;
     top: -33px;
     left: 133px;
   }
-  #footer .text4 {
+  #Footer .text4 {
     position: relative;
     top: -33px;
     left: 142px;
   }
-  #footer .texte {
+  #Footer .texte {
     position: relative;
     left: -185px;
     top: 171px;
   }
-  #footer .texte2 {
+  #Footer .texte2 {
     position: relative;
     top: 190px;
     left: -200px;
   }
-  #footer .texte3 {
+  #Footer .texte3 {
     position: relative;
     top: 188px;
     left: -202px;
   }
-  #footer .texte4 {
+  #Footer .texte4 {
     position: relative;
     top: 189px;
     left: -207px;
   }
-  #footer .textee {
+  #Footer .textee {
     position: relative;
     top: 173px;
     left: 59px;
   }
-  #footer .imge {
+  #Footer .imge {
     position: relative;
     top: 189px;
     left: 182px;
     width: 27px;
   }
-  #footer .imge2 {
+  #Footer .imge2 {
     position: relative;
     top: 189px;
     width: 27px;
     left: 46px;
   }
-  #footer .imge3 {
+  #Footer .imge3 {
     position: relative;
     width: 27px;
     top: 189px;
     left: 115px;
   }
-  #footer .imge4 {
+  #Footer .imge4 {
     position: relative;
     width: 27px;
     top: 189px;
     left: -22px;
   }
-  #footer .txtt {
+  #Footer .txtt {
     position: relative;
     top: 204px;
     left: 106px;
@@ -2513,38 +2476,6 @@ span.psw {
     font-size: 12px;
     margin-left: -51px;
   }
-  .page2 .parag {
-    display: none;
-  }
-  .page2 .forfait1 {
-    display: none;
-  }
-  .page2 .forfait2 {
-    display: none;
-  }
-  .page2 .forfait5 {
-    display: none;
-  }
-  .page2 .offre {
-    font-size: 15px;
-    margin-top: -591PX;
-  }
-  .page2 .offre1 {
-    font-size: 14px;
-    margin-top: -15px;
-  }
-  .page2 .Offre2 {
-    font-size: 11px;
-    margin-top: -85px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    left: -200px;
-    text-align: center;
-  }
-  .page2 .forfait6 {
-    display: none;
-  }
   .page2 .btnred {
     height: 35px;
     width: 99px;
@@ -2588,10 +2519,27 @@ span.psw {
   }
   #page4 .Forfait9 {
     width: 68%;
-    height: 33%;
+    height: 40%;
   }
   #page4 .Forfait10 {
     display: none;
+  }
+  #page4 .Offre {
+    font-size: 27px;
+    margin-top: -32px;
+  }
+  #page4 .Offre1 {
+    font-size: 15px;
+  }
+  #page4 .Offre2 {
+    text-align: center;
+    margin-top: -41px;
+  }
+  #page4 .Btnred {
+    width: 125px;
+    font-size: 11px;
+    height: 48px;
+    margin-left: 106px;
   }
 }
 /*# sourceMappingURL=inscrip.css.map */
